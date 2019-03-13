@@ -13,3 +13,12 @@ function johnLennonFacts(facts) {
   }
   return facts
 }
+
+function iLoveTheBeatles(num) {
+  var emptArray = []
+  do {
+    emptArray.push("I love the Beatles!")
+    num++
+  } while num < 15
+  return emptArray
+}
